@@ -1,0 +1,5 @@
+# Test case 4: invalid input. Loading this file shows an error message.
+# Line 5 (P2) has a negative arrival time.
+# PID  Arrival  Burst  Priority
+P1     0        5      1
+P2     -3       4      2

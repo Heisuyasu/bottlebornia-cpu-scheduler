@@ -1,0 +1,8 @@
+# CPU Scheduling Simulator - sample input (group BOTTLEBORNIA)
+# Test case 1: SJF beats FCFS. A long job (P3) arrives before a shorter one (P4).
+# Expected: FCFS avg WT 8.75, avg TAT 15.25 | SJF avg WT 7.75, avg TAT 14.25
+# PID  Arrival  Burst  Priority
+P1     0        8      2
+P2     1        4      1
+P3     2        9      3
+P4     3        5      2

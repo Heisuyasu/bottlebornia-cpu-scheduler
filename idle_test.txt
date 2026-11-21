@@ -1,0 +1,9 @@
+# Test case 2: the CPU sits idle from time 5 to 8 because no process has arrived.
+# P4 and P5 arrive at the same time (9); both algorithms run P4 first.
+# Expected (both algorithms): avg WT 1.80, avg TAT 4.40, CPU utilization 81.2%
+# PID  Arrival  Burst  Priority
+P1     0        3      2
+P2     1        2      1
+P3     8        4      3
+P4     9        1      1
+P5     9        3      2

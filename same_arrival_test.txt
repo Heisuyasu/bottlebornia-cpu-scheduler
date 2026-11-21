@@ -1,0 +1,7 @@
+# Test case 3: every process arrives at time 0, so SJF can fully reorder by burst time.
+# Expected: FCFS avg WT 7.50, avg TAT 12.25 | SJF avg WT 4.50, avg TAT 9.25
+# PID  Arrival  Burst  Priority
+P1     0        6      1
+P2     0        2      2
+P3     0        8      3
+P4     0        3      1
